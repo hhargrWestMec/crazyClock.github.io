@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Crazy Clock </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body id="body">
+
+    <div class="mainDiv">
+        <div class="whiteDiv"></div>
+        <img class="mainImage" alt="image of a clock" src="clock2.jpg">
+        <img class="handImage" alt="image of a clock hand" src="hand2.jpg">
+        <img class="handImage7" alt="image of a clock hand" src="hand2.jpg">
+        <img class="handImage8" alt="image of a clock hand" src="hand2.jpg">
+        <img class="handImage2" alt="image of a clock hand" src="hand2.jpg">
+        <img class="handImage3" alt="image of a clock hand" src="hand2.jpg">
+        <img class="handImage4" alt="image of a clock hand" src="hand2.jpg">
+        <img class="handImage5" alt="image of a clock hand" src="hand2.jpg">
+        <img class="handImage6" alt="image of a clock hand" src="hand2.jpg">
+
+
+        <div class="tinyBlackCircle"></div>
+    </div>
+    <script>
+        let R = 28;
+        let G = 32;
+        let B = 140;
+        let number = 1000;
+        const body = document.getElementById('body');
+        function newColor() {
+            R = Math.floor(Math.random() * 255);
+            G = Math.floor(Math.random() * 255);
+            B = Math.floor(Math.random() * 255);
+            var x = eval(new String('rgb(' + R + ', ' + G + ', ' + B + ')'))
+            body.style.backgroundColor = x;
+            number = Math.floor(Math.random() * 2000);
+        }
+        setInterval(newColor, number)
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,293 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    background-color: #04053d;
+}
+
+.whiteDiv {
+    background-color: white;
+    position: absolute;
+    height: 75vh;
+    width: 40vw;
+    margin-left: 30vw;
+    margin-top: 12.5vh;
+    z-index: -1;
+    border-radius: 100%;
+}
+
+.mainImage {
+    height: 75vh;
+    width: 40vw;
+    margin-left: 30vw;
+    margin-top: 12.5vh;
+    position: absolute;
+}
+
+.handImage {
+    height: 35vh;
+    width: 10vw;
+    margin-left: 45vw;
+    margin-top: 18vh;
+    position: absolute;
+    transform-origin: 50% 92%;
+    animation: animation 9s ease-in-out infinite;
+}
+
+.handImage7 {
+    height: 35vh;
+    width: 10vw;
+    margin-left: 45vw;
+    margin-top: 18vh;
+    position: absolute;
+    transform-origin: 50% 92%;
+    animation: animation7 9s ease-in-out infinite;
+}
+
+.handImage8 {
+    height: 35vh;
+    width: 10vw;
+    margin-left: 45vw;
+    margin-top: 18vh;
+    position: absolute;
+    transform-origin: 50% 92%;
+    animation: animation8 9s ease-in-out infinite;
+}
+
+.handImage2 {
+    height: 25vh;
+    width: 7vw;
+    margin-left: 46.5vw;
+    margin-top: 27.25vh;
+    position: absolute;
+    transform-origin: 50% 92%;
+    animation: animation2 3s linear infinite;
+}
+
+.handImage3 {
+    height: 25vh;
+    width: 7vw;
+    margin-left: 46.5vw;
+    margin-top: 27.25vh;
+    position: absolute;
+    transform-origin: 50% 92%;
+    animation: animation3 2s ease-out infinite;
+}
+
+.handImage4 {
+    height: 25vh;
+    width: 7vw;
+    margin-left: 46.5vw;
+    margin-top: 27.25vh;
+    position: absolute;
+    transform-origin: 50% 92%;
+    animation: animation4 5s ease-in infinite;
+}
+
+.handImage5 {
+    height: 25vh;
+    width: 7vw;
+    margin-left: 46.5vw;
+    margin-top: 27.25vh;
+    position: absolute;
+    transform-origin: 50% 92%;
+    animation: animation5 1s linear infinite;
+}
+
+.handImage6 {
+    height: 25vh;
+    width: 7vw;
+    margin-left: 46.5vw;
+    margin-top: 27.25vh;
+    position: absolute;
+    transform-origin: 50% 92%;
+    animation: animation6 3s linear infinite;
+}
+
+.tinyBlackCircle {
+    height: 4vh;
+    width: 2.1vw;
+    background-color: black;
+    border-radius: 50%;
+    margin-left: 48.9vw;
+    margin-top: 48.2vh;
+    position: absolute;
+}
+
+@keyframes animation {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    25% {
+        transform: rotate(281deg)
+    }
+
+    50% {
+        transform: rotate(-229deg)
+    }
+
+    75% {
+        transform: rotate(183deg)
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes animation2 {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    25% {
+        transform: rotate(320deg);
+    }
+
+    50% {
+        transform: rotate(-60deg);
+    }
+
+    75% {
+        transform: rotate(280deg);
+    }
+
+    100% {
+        transform: rotate(0deg);
+    }
+}
+
+@keyframes animation3 {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    25% {
+        transform: rotate(-200deg);
+    }
+
+    50% {
+        transform: rotate(190deg);
+    }
+
+    75% {
+        transform: rotate(-50deg);
+    }
+
+    100% {
+        transform: rotate(0deg);
+    }
+}
+
+@keyframes animation4 {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    25% {
+        transform: rotate(500deg);
+    }
+
+    50% {
+        transform: rotate(-130deg);
+    }
+
+    75% {
+        transform: rotate(200deg);
+    }
+
+    100% {
+        transform: rotate(0deg);
+    }
+}
+
+@keyframes animation5 {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    25% {
+        transform: rotate(-50deg);
+    }
+
+    50% {
+        transform: rotate(340deg);
+    }
+
+    75% {
+        transform: rotate(-110deg);
+    }
+
+    100% {
+        transform: rotate(0deg);
+    }
+}
+
+@keyframes animation6 {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    25% {
+        transform: rotate(200deg);
+    }
+
+    50% {
+        transform: rotate(-360deg);
+    }
+
+    75% {
+        transform: rotate(20deg);
+    }
+
+    100% {
+        transform: rotate(0deg);
+    }
+}
+
+@keyframes animation7 {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    25% {
+        transform: rotate(90deg)
+    }
+
+    50% {
+        transform: rotate(-10deg)
+    }
+
+    75% {
+        transform: rotate(270deg)
+    }
+
+    100% {
+        transform: rotate(-120deg);
+    }
+}
+
+@keyframes animation8 {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    25% {
+        transform: rotate(400deg)
+    }
+
+    50% {
+        transform: rotate(-200deg)
+    }
+
+    75% {
+        transform: rotate(183deg)
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
